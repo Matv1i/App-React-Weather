@@ -1,0 +1,43 @@
+.containersHour {
+  background-color: #131215;
+  height: 33vh;
+  width: 66vw;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  color: white;
+  border-radius: 30px;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 0;
+  overflow-x: auto;
+}
+.titleToday {
+  color: rgb(126, 121, 121);
+  font-size: 4vh;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  padding: 0;
+  margin: 0;
+  margin: 10px;
+  padding-top: 15px;
+}
+
+.oneHour {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #1c1c1e;
+  width: 15%;
+  border-radius: 25px;
+  height: 100%;
+}
+.oneHour p {
+  font-size: 3vh;
+}

@@ -1,0 +1,134 @@
+.mainContainer {
+  background-color: #1c1c1e;
+  height: 55vh;
+  width: 66vw;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  color: white;
+  border-radius: 30px;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 0;
+}
+.mainContainer p {
+  margin: 0;
+}
+.halfContainer {
+  height: 40%;
+  width: 43%;
+  background-color: #242427;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 30px;
+}
+.sunAndMoon {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 45%;
+  height: 100%;
+}
+.iconSun {
+  display: flex;
+  justify-content: flex;
+  align-items: center;
+}
+.sunAndMoon img {
+  height: 28%;
+  margin-right: 20px;
+}
+.sunriseTime {
+  font-size: 35px;
+}
+.sunrise {
+  font-size: 15px;
+}
+
+.airContainer {
+  height: 40%;
+  width: 43%;
+  background-color: #242427;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 30px;
+}
+.columnsDet {
+  height: 70%;
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.airDescr {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 17%;
+}
+.airDescr img {
+  height: 80%;
+}
+.firstText {
+  font-size: 1.5vh;
+  font-weight: 200;
+}
+.numb {
+  font-size: 3.5vh;
+  font-weight: 400;
+}
+.columnsDet img {
+  height: 12vh;
+}
+
+.miniContainer {
+  width: 23%;
+  border-radius: 30px;
+  background-color: #242427;
+  height: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+
+.insideMini {
+  display: flex;
+
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  height: 70%;
+  font-size: 4vh;
+}
+.insideMini img {
+  height: 8vh;
+}
+
+.titleHl {
+  color: rgb(126, 121, 121);
+  font-size: 4vh;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  padding: 0;
+  margin: 0;
+  padding-bottom: 10px;
+}

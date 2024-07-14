@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  font-family: Poppins, Helvetica, sans-serif;
+}
+body {
+  background-color: #131215;
+}
+
+.container {
+  height: 100vh;
+  width: 100wv;
+}
+
+.navbar {
+  margin-top: 20px;
+  height: 7%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.divLogo {
+  display: flex;
+  justify-content: start;
+  width: 30%;
+  height: 100%;
+  align-items: center;
+}
+.logo {
+  height: 70%;
+}
+
+.input {
+  height: 80%;
+  background-color: #1c1c1e;
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+  padding-left: 10px;
+}
+.search {
+  height: 40%;
+  display: flex;
+  justify-content: end;
+  cursor: pointer;
+}
+input {
+  width: 90%;
+  background-color: #1c1c1e;
+  border: 0px solid;
+  height: 80%;
+  color: white;
+}
+.fiveDays {
+  color: white;
+  padding-left: 50px;
+}
+
+.cityRep {
+  color: white;
+  font-size: 4vh;
+}
+.columnFirst {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 30vw;
+}
+
+.columns {
+  display: flex;
+  flex-direction: row;
+}
+.columnSecond {
+  width: 60vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  margin-top: 40px;
+}

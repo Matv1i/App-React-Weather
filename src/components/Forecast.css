@@ -1,0 +1,52 @@
+.forecast-container {
+  background-color: #1c1c1e;
+  width: 85%;
+  height: 48%;
+  color: white;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  border-radius: 30px;
+}
+.forecastOneDay {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  height: 20%;
+  margin: 0px 20px;
+  padding: 0;
+  padding-left: 20px;
+}
+.tempAndIcon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+}
+.tempAndIcon p {
+  margin-left: -10px;
+  font-size: 30px;
+}
+.tempAndIcon img {
+  height: 80px;
+}
+
+.dayDate {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.677);
+}
+.fiveDays {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  padding-right: 40px;
+}
